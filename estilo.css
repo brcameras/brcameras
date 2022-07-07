@@ -1,0 +1,248 @@
+*{
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+body{
+	background-color: #D9D9D9;
+
+}
+.navbar{
+	width: 100%;
+}
+
+.colornav{
+	background-color: #1D1840;
+}
+
+.nav-link{
+	color: white;
+	font-size: 20px;
+	margin: 10px;
+}
+
+.nav-link:hover{
+	color: white;
+	font-size: 22px;
+}
+
+.nav-link:visited{
+	color: white;
+	font-size: 22px;
+}
+
+.titulo-car{
+	color:#1D1840 ;
+}
+
+
+main{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+#numerostyle{
+	font-size: 30px;
+	text-decoration: none;
+	list-style-type: none;
+	display: inline;
+	position: relative;
+	top: 10px;
+	color: 		white;
+  margin-left: 15px;
+;
+
+}
+
+#numerostyle:hover{
+	font-size: 30px;
+	text-decoration: none;
+	list-style-type: none;
+	display: inline;
+	position: relative;
+	top: 10px;
+	color: 	green;
+margin-left: 15px;}
+
+
+a{
+	text-decoration: none;
+	list-style-type: none;
+	color: 	white;
+}
+a:hover{
+	text-decoration: none;
+	list-style-type: none;
+	color: green;
+}
+
+
+#painel{
+	margin-top: 80px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;	
+	
+	height: 400px;
+	width: 600px;
+}
+h1{
+	color: 	white;
+	position: relative;
+	padding-left: 80px;
+	padding-top: 15px;
+	font-size: 35px;
+
+}
+
+
+
+.titulo{
+	width: 600px;
+	height: 70px;
+	background-color:  #1D1840 ;
+	font-family: 'Secular One', sans-serif;
+
+	
+}
+
+#contato{
+	width: 500px;
+	height: 65px;
+	background-color:  #1D1840;
+	border-radius: 25px;
+	padding-left: 125px;
+	padding-top: 2px;
+	margin-top: 30px;
+	font-family: 'Secular One', sans-serif;
+
+
+
+}
+
+
+#instagram{
+	width: 500px;
+	height: 65px;
+	background-color:  #1D1840;
+	border-radius: 25px;
+	padding-left: 125px;
+
+	margin-top: 30px;
+	padding-top: 2px;
+	font-family: 'Secular One', sans-serif;;
+
+
+}
+
+#instagramstyle{
+	display: inline;
+	font-size: 30px;
+	margin-left: 20px;
+	position: relative;
+	top: 5px;
+}
+
+#myCarousel{
+	border: 15px solid white;
+
+
+}
+
+#conteiner{
+	display: flex;
+	flex-direction: column;
+	align-items: ;
+}
+
+#titulo2{
+	display: flex;
+	align-items: center;
+	font-size: 70px;
+	color: #1D1840 ;
+	margin-bottom: 30px;
+
+}
+
+
+.b-example-divider{
+	margin-top: 20px;
+}
+
+.navbar-toggler{
+	background-color: white;
+}
+
+
+
+
+
+@media (max-width: 1080px)
+{
+  #topo{
+  	display: none;
+  }
+
+
+}
+
+@media (max-width: 600px)
+{
+  .titulo{
+  	width: 400px;
+	  height: 70px;
+	  background-color:  #1D1840 ;
+	  font-family: 'Secular One', sans-serif;
+	  font-size: 22px;
+  }
+
+   #contato{
+	width: 400px;
+	height: 65px;
+	background-color:  #1D1840;
+	border-radius: 25px;
+	padding-left: 95px;
+	padding-top: 2px;
+	margin-top: 30px;
+	font-family: 'Secular One', sans-serif;
+}  
+  #instagram{
+	width: 400px;
+	height: 65px;
+	background-color:  #1D1840;
+	border-radius: 25px;
+	padding-left: 95px;
+
+	margin-top: 30px;
+	padding-top: 2px;
+	font-family: 'Secular One', sans-serif;;
+
+
+}	
+#instagramstyle{
+	display: inline;
+	font-size: 30px;
+	margin-left: 10px;
+	position: relative;
+	top: 5px;
+}
+
+h1{
+	color: 	white;
+	position: relative;
+	padding-left: 50px;
+	padding-top: 25px;
+	font-size: 35px;
+
+}
+
+
+
+
+
+
+  }
+
+
